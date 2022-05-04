@@ -1,14 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
 #include <math.h>
 
-struct operacion {
-    char operador;
-    int (*funcion)(int, int);
-};
-
-typedef struct operacion oper;
+#include "funcion.h"
 
 int suma(int a, int b){
     return a+b;
