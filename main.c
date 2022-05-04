@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "funcion.c"
+#include "funcion.h"
 
 int main(int argc, char *argv[]){
     int op1 = 3;
